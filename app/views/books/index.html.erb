@@ -10,7 +10,21 @@
   </thead>
 
   <tbody>
-
+  <% @books.each do |book| %>
+    <tr>
+      <td><%= book.title %></td>
+      <td><%= book.body %></td>
+      <td>
+        <a href=''>Show</a>
+      </td>
+      <td>
+        <a href=''>Edit</a>
+      </td>
+      <td>
+        <a href=''>Destroy</a>
+      </td>
+    </tr>
+  <% end %>
   </tbody>
 
 </table>
