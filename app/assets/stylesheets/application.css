@@ -12,3 +12,19 @@ p{
   margin: 33px;
   font-size: 13px;
 }
+
+th{
+  padding-bottom: 5px;
+}
+
+h2{
+  padding: 13px 0;
+}
+
+.field{
+  padding-bottom: 13px;
+}
+
+h4{
+  font-size: 13px;
+}
